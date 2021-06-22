@@ -1,0 +1,70 @@
+{
+  "name": "awesometsproject",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "storybook": "start-storybook -p 7007",
+    "storybook:web": "./node_modules/@storybook/react/bin/index.js -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "native-base": "^3.0.0-next.40",
+    "react": "17.0.1",
+    "react-native": "0.64.1",
+    "react-native-svg-web": "^1.0.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@storybook/addon-actions": "^5.3",
+    "@storybook/addon-essentials": "^6.2.9",
+    "@storybook/addon-knobs": "^5.3",
+    "@storybook/addon-links": "^5.3",
+    "@storybook/addon-ondevice-actions": "^5.3.23",
+    "@storybook/addon-ondevice-knobs": "^5.3.25",
+    "@storybook/addon-viewport": "^6.2.9",
+    "@storybook/builder-webpack5": "^6.2.9",
+    "@storybook/react": "^6.2.9",
+    "@storybook/react-native": "^5.3.25",
+    "@storybook/react-native-server": "^5.3.23",
+    "@types/jest": "^26.0.23",
+    "@types/react-native": "^0.64.5",
+    "@types/react-test-renderer": "^16.9.2",
+    "babel-jest": "^26.6.3",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "babel-plugin-react-native-web": "^0.17.0",
+    "eslint": "^7.14.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.64.0",
+    "prop-types": "^15.7.2",
+    "react-dom": "^17.0.2",
+    "react-native-safe-area-context": "^3.2.0",
+    "react-native-svg": "https://github.com/pratyushok/react-native-svg/releases/download/v12.1.1/react-native-svg-12.1.1.tgz",
+    "react-native-web": "^0.17.0",
+    "react-test-renderer": "17.0.1",
+    "styled-components": "^5.3.0",
+    "styled-system": "^5.1.5",
+    "typescript": "^3.8.3"
+  },
+  "resolutions": {
+    "@types/react": "^17"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}
